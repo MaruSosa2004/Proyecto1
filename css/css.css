@@ -6,12 +6,33 @@
 }
 header {
     background: rgb(221,0,167);
-    background: linear-gradient(90deg, rgba(221,0,167,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, #52796f 0%, #2c4244 100%);
     padding: 30px;
 }
+.titulo {
+    font-size: 100px;
+    text-align: center;
+}
+.titulo {
+    animation-duration: 3s;
+    animation-name: apa;
+    animation-iteration-count: infinite;
+}
+@keyframes apa {
+    0% {
+        opacity: 0;
+        color: #9a8c98;
+    }
+    50% {
+        color: #4a4e69;
+    }
+    100% {
+        opacity: 1;
+        color: #22223b;
+    }
+}
 nav {
-    background: rgb(221,0,167);
-    background: linear-gradient(90deg, rgba(221,0,167,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, #52796f 0%, #2c4244 100%);
 }
 .navbar {
     text-align: center;
@@ -28,8 +49,96 @@ a:hover {
     color: white;
     text-decoration: none;
 }
+.titulo {
+    animation-duration: 3s;
+    animation-name: apa;
+    animation-iteration-count: infinite;
+}
+@keyframes apa {
+    0% {
+        color: #9a8c98;
+    }
+    50% {
+        color: #4a4e69;
+    }
+    100% {
+        opacity: 1;
+        color: #22223b;
+    }
+}.text {
+    animation-duration: 3s;
+    animation-name: uno;
+    animation-iteration-count: initial;
+}
+@keyframes uno {
+    0% {
+        opacity: 0;
+        color: #9a8c98;
+    }
+    50% {
+        color: #4a4e69;
+    }
+    100% {
+        opacity: 1;
+        color: #22223b;
+    }
+}
 .uno {
     margin: 10px;
     padding: 10px;
     border: pink solid 1px;
+}
+.one {
+    float: left;
+}
+.Producto {
+    margin: 10px;
+}
+.p{
+    padding: 30px;
+    margin-top: 50px;
+}
+section {
+    margin: 10px;
+}
+.trans {
+    transition: all 1s;
+}
+.trans:hover {
+    transform: rotate(10deg);
+}
+#galeria {
+    margin: 10px;
+    padding: 5px;
+}
+img {
+    margin: 10px;
+    border: rgb(17, 17, 90) solid 2px;
+}
+footer h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+footer {
+        animation-duration: 3s;
+        animation-name: fin;
+        animation-iteration-count: infinite;
+    }
+@keyframes fin {
+        0% {
+            background-color: #ea698b;
+        }
+        20% {
+            background-color: #c05299;
+        }
+        40% {
+            background-color: #973aa8;
+        }
+        60% {
+            background-color: #6d23b6;
+        }
+        100% {
+            background-color: #571089;
+        }
 }
